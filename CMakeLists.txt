@@ -15,6 +15,6 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 
 add_executable(Internship_task_FM
-  main.cpp
+  main.cpp event.h event.cpp
 )
 target_link_libraries(Internship_task_FM Qt${QT_VERSION_MAJOR}::Core)
